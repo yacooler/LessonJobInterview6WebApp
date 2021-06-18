@@ -64,7 +64,7 @@
                     <path>/homework</path>
                 </configuration>
             </plugin>
-            
+
         </plugins>
 
     </build>
