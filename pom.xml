@@ -10,8 +10,8 @@
     <packaging>war</packaging>
 
     <properties>
-        <maven.compiler.source>14</maven.compiler.source>
-        <maven.compiler.target>14</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
     </properties>
 
 
@@ -41,7 +41,7 @@
     </dependencies>
 
     <build>
-        <finalName>homework</finalName>
+        <finalName>hello</finalName>
 
         <plugins>
             <plugin>
@@ -61,7 +61,7 @@
                     <url>http://localhost:8080/manager/text</url>
                     <username>admin</username>
                     <password>admin</password>
-                    <path>/homework</path>
+                    <path>/hello</path>
                 </configuration>
             </plugin>
 
